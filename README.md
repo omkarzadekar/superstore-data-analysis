@@ -13,25 +13,25 @@ The analysis is carried out using SQL for data preparation, Tableau for explorat
 
 🎯 Business Problems Addressed
 
-Which customers and products contribute most to overall profit?
+1) Which customers and products contribute most to overall profit?
 
-Which products and customers are causing losses, and what factors drive those losses?
+2) Which products and customers are causing losses, and what factors drive those losses?
 
-How do sales and profit vary across regions, categories, and sub-categories?
+3) How do sales and profit vary across regions, categories, and sub-categories?
 
-What is the impact of discounts on profitability?
+4) What is the impact of discounts on profitability?
 
-How does shipping time vary by product and location, and does it affect profit?
+5) How does shipping time vary by product and location, and does it affect profit?
 
 🛠 Tools & Technologies Used
 
-SQL (MySQL) – Data cleaning, aggregation, KPI calculations
+--SQL (MySQL) – Data cleaning, aggregation, KPI calculations
 
-Tableau – Interactive dashboards and exploratory analysis
+--Tableau – Interactive dashboards and exploratory analysis
 
-Power BI – Advanced KPIs, DAX measures, drill-down analysis
+--Power BI – Advanced KPIs, DAX measures, drill-down analysis
 
-Excel / CSV – Source data format
+--Excel / CSV – Source data format
 
 🗂 Dataset Description
 
@@ -68,29 +68,29 @@ To ensure accurate KPI calculations and avoid misleading results caused by dupli
 
 📊 Key KPIs Calculated
 
-Total Sales
+-Total Sales
 
-Total Profit
+-Total Profit
 
-Profit Margin (%)
+-Profit Margin (%)
 
-Average Discount
+-Average Discount
 
-Average Shipping Time (Days)
+-Average Shipping Time (Days)
 
-Profit by Category, Sub-Category, Region, Customer, and Product
+-Profit by Category, Sub-Category, Region, Customer, and Product
 
 🔍 Key Insights
 
-Technology category generates the highest profit with relatively lower discounts
+-Technology category generates the highest profit with relatively lower discounts
 
-Furniture shows high sales volume but lower profitability
+-Furniture shows high sales volume but lower profitability
 
-A small group of customers contributes disproportionately to total profit
+-A small group of customers contributes disproportionately to total profit
 
-High discounts are strongly correlated with loss-making products
+-High discounts are strongly correlated with loss-making products
 
-Longer shipping times are observed in certain regions and categories
+-Longer shipping times are observed in certain regions and categories
 
 📈 Dashboards
 Tableau
@@ -111,22 +111,17 @@ Time-based trend analysis
 
 📂 Project Structure
 superstore-data-analysis/
+data/sample_superstore.csv
 │
-├── data/
-│   └── sample_superstore.csv
+sql/data_cleaning.sql
+sql/aggregation.sql
+sql/business_queries.sql
 │
-├── sql/
-│   ├── data_cleaning.sql
-│   ├── aggregation.sql
-│   └── business_queries.sql
+tableau/superstore_dashboard.twbx
 │
-├── tableau/
-│   └── superstore_dashboard.twbx
+powerbi/superstore_dashboard.pbix
 │
-├── powerbi/
-│   └── superstore_dashboard.pbix
-│
-└── README.md
+README.md
 
 🚀 Future Enhancements
 
