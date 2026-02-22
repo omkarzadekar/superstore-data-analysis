@@ -22,10 +22,12 @@ The analysis is carried out using SQL for data preparation, Tableau for explorat
 4) What is the impact of discounts on profitability?
 
 5) How does shipping time vary by product and location, and does it affect profit?
+  
+6) How is the business performing Year-over-Year?
 
 🛠 Tools & Technologies Used
 
---SQL (MySQL) – Data cleaning, aggregation, KPI calculations
+--SQL (MySQL) – Data cleaning, aggregation, KPI logic, YoY growth using window functions
 
 --Tableau – Interactive dashboards and exploratory analysis
 
@@ -51,20 +53,25 @@ Time (Order Date, Ship Date)
 
 Measures:
 
-Sales, Quantity, Discount, Profit
+Sales
+
+Quantity
+
+Discount
+
+Profit
 
 🧹 Data Cleaning & Preparation (SQL)
 
 Identified and handled duplicate order–product records
 
+Standardized all columns by scope
+
 Converted date columns from text to date format
 
-Created an aggregated fact table at order–product level to avoid double counting
+Perfomed data modeling and created different files as fact tables and dimension tables considering star schema
 
 Validated key measures (sales, profit, discount)
-
-📌 Why aggregation?
-To ensure accurate KPI calculations and avoid misleading results caused by duplicate transactional rows.
 
 📊 Key KPIs Calculated
 
@@ -113,9 +120,9 @@ Time-based trend analysis
 superstore-data-analysis/
 data/sample_superstore.csv
 │
-sql/data_cleaning.sql
-sql/aggregation.sql
-sql/business_queries.sql
+sql/staging_superstore.sql
+sql/star_schema_superstore.sql
+sql/superstore_analytics.sql
 │
 tableau/superstore_dashboard.twbx
 │
@@ -136,4 +143,4 @@ Integrate Python for deeper analytics
 👤 Author
 
 Omkar Zadekar
-Aspiring Data Analyst | SQL | Tableau | Power BI
+Data Analyst | SQL | Tableau | Power BI
