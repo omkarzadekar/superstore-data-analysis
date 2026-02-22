@@ -100,19 +100,15 @@ Validated key measures (sales, profit, discount)
 -Longer shipping times are observed in certain regions and categories
 
 📈 Dashboards
-Tableau
+Power BI
+
+KPI cards with DAX measures
 
 Executive profitability overview
 
 Category and region-wise performance
 
-Top products and loss-making segments
-
-Power BI
-
-KPI cards with DAX measures
-
-Drill-through analysis by customer and product
+Top loss-making products
 
 Time-based trend analysis
 
