@@ -1,17 +1,17 @@
 ## Superstore Data Analysis
 End-to-end data analysis project using SQL, Tableau, and Power BI on Superstore dataset
 
-📌 Project Overview
+📌 #Project Overview
 
 This project is an end-to-end data analytics case study performed on a retail Superstore dataset to analyze sales performance, profitability, customer behavior, and operational efficiency.
 
-The objective is to help business stakeholders answer:
+The analysis is carried out using SQL for data preparation, Power BI for advanced reporting and KPI analysis.
 
-Where are we making money, where are we losing money, and why?
+#Dashboard Overview
 
-The analysis is carried out using SQL for data preparation, Tableau for exploratory visualization, and Power BI for advanced reporting and KPI analysis.
+<img width="1309" height="738" alt="Screenshot (42)" src="https://github.com/user-attachments/assets/50218462-e40a-4ecd-be7b-9690321211fb" />
 
-🎯 Business Problems Addressed
+🎯 #Business Problems Addressed
 
 1) Which customers and products contribute most to overall profit?
 
@@ -25,17 +25,15 @@ The analysis is carried out using SQL for data preparation, Tableau for explorat
   
 6) How is the business performing Year-over-Year?
 
-🛠 Tools & Technologies Used
+🛠 #Tools & Technologies Used
 
 --SQL (MySQL) – Data cleaning, aggregation, KPI logic, YoY growth using window functions
-
---Tableau – Interactive dashboards and exploratory analysis
 
 --Power BI – Advanced KPIs, DAX measures, drill-down analysis
 
 --Excel / CSV – Source data format
 
-🗂 Dataset Description
+🗂 #Dataset Description
 
 Source: Superstore sales data
 
@@ -61,9 +59,9 @@ Discount
 
 Profit
 
-🧹 Data Cleaning & Preparation (SQL)
+🧹 #Data Cleaning & Preparation (SQL)
 
-Identified and handled duplicate order–product records
+Identified and handled duplicate order–product records, null values
 
 Standardized all columns by scope
 
@@ -73,21 +71,21 @@ Perfomed data modeling and created different files as fact tables and dimension 
 
 Validated key measures (sales, profit, discount)
 
-📊 Key KPIs Calculated
+📊 #Key KPIs Calculated
 
 -Total Sales
 
--Total Profit
+-YOY%
 
 -Profit Margin (%)
 
--Average Discount
+-Total Customers
 
 -Average Shipping Time (Days)
 
 -Profit by Category, Sub-Category, Region, Customer, and Product
 
-🔍 Key Insights
+🔍 #Key Insights
 
 -Technology category generates the highest profit with relatively lower discounts
 
@@ -99,7 +97,7 @@ Validated key measures (sales, profit, discount)
 
 -Longer shipping times are observed in certain regions and categories
 
-📈 Dashboards
+📈 #Dashboards
 Power BI
 
 KPI cards with DAX measures
@@ -112,21 +110,7 @@ Top loss-making products
 
 Time-based trend analysis
 
-📂 Project Structure
-superstore-data-analysis/
-data/sample_superstore.csv
-│
-sql/staging_superstore.sql
-sql/star_schema_superstore.sql
-sql/superstore_analytics.sql
-│
-tableau/superstore_dashboard.twbx
-│
-powerbi/superstore_dashboard.pbix
-│
-README.md
-
-🚀 Future Enhancements
+🚀 #Future Enhancements
 
 Add time-series forecasting
 
