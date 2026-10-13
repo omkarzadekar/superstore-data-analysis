@@ -1,4 +1,4 @@
-# Superstore Data Analysis
+## Superstore Data Analysis
 End-to-end data analysis project using SQL, Tableau, and Power BI on Superstore dataset
 
 📌 Project Overview
