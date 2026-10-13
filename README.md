@@ -9,7 +9,7 @@ The analysis is carried out using SQL for data preparation, Power BI for advance
 
 #Dashboard Overview
 
-<img width="1309" height="738" alt="Screenshot (42)" src="https://github.com/user-attachments/assets/50218462-e40a-4ecd-be7b-9690321211fb" />
+<img width="1309" height="735" alt="Screenshot (43)" src="https://github.com/user-attachments/assets/b85e2c06-6768-4c9b-bd8e-0087a29deec2" />
 
 🎯 #Business Problems Addressed
 
